@@ -14,6 +14,8 @@
 		1FA9B894211B1C0C0098C642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA9B892211B1C0C0098C642 /* LaunchScreen.storyboard */; };
 		1FA9B89F211B1C0C0098C642 /* SegueEXPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9B89E211B1C0C0098C642 /* SegueEXPTests.swift */; };
 		1FA9B8AA211B1C0C0098C642 /* SegueEXPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9B8A9211B1C0C0098C642 /* SegueEXPUITests.swift */; };
+		1FA9B8BA211B2E5B0098C642 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9B8B9211B2E5B0098C642 /* BlueViewController.swift */; };
+		1FA9B8BC211B2EF90098C642 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9B8BB211B2EF90098C642 /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1FA9B8A5211B1C0C0098C642 /* SegueEXPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegueEXPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA9B8A9211B1C0C0098C642 /* SegueEXPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueEXPUITests.swift; sourceTree = "<group>"; };
 		1FA9B8AB211B1C0C0098C642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA9B8B9211B2E5B0098C642 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		1FA9B8BB211B2EF90098C642 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				1FA9B889211B1C0C0098C642 /* AppDelegate.swift */,
 				1FA9B88B211B1C0C0098C642 /* ViewController.swift */,
+				1FA9B8B9211B2E5B0098C642 /* BlueViewController.swift */,
+				1FA9B8BB211B2EF90098C642 /* GreenViewController.swift */,
 				1FA9B88D211B1C0C0098C642 /* Main.storyboard */,
 				1FA9B890211B1C0C0098C642 /* Assets.xcassets */,
 				1FA9B892211B1C0C0098C642 /* LaunchScreen.storyboard */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA9B8BC211B2EF90098C642 /* GreenViewController.swift in Sources */,
 				1FA9B88C211B1C0C0098C642 /* ViewController.swift in Sources */,
+				1FA9B8BA211B2E5B0098C642 /* BlueViewController.swift in Sources */,
 				1FA9B88A211B1C0C0098C642 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
